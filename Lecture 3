@@ -1,0 +1,9 @@
+## More on replit, print and common mistakes 
+In a previous program print command like "hello india" in this if you print two messeges hello india and hello world in a single print statement can we do this it is possible, yes it is possible we can write two different messeges in the same print command seperated by comma(,),Similarly we can add as many command as well.
+
+print('Hello India','Hello World','Hi Python students')                       Hello India Hello World Hi Python students
+
+# One more question if we can print number as well it is possible, yes it is possible
+print(10)                                                                     10
+# One more question we can print messeges and number ina single print statement it is possible, yes it is possible
+So we can print multiple messeges and multiple values at a same time. it allow us to print strings ,whole number as well as fractional number
