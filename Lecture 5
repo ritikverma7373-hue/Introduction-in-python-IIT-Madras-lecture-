@@ -1,0 +1,16 @@
+## some more fun with variables and strings
+In a previous program you can type number by the user in a print statement by using (int) function but if you type name then what are we doing now so we use (str) function
+so what is str and what is int so we are discuss in a next upcoming lecture yeah.
+
+print("Hello,type in your name:")
+n=str(input())
+print("Hello",n,"how are you?")
+b=str(input())
+print("Hello",a,"how is the weather in",b,"?")
+print("what is your age?")
+age=int(input())
+print("good to know you are",age,"years old")
+print("what is your favorite food?")
+food=str(input())
+print("what is your favorite color?")
+color=str(input())
