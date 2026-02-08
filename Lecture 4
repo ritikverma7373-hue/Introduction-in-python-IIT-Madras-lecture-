@@ -7,14 +7,18 @@
  print(a)                      12
  a=a+1
  print(a)                      13
- a=a+1
+ # In this place (a) Alphabet is assign with variables 10 after this print a value is 10. 
+   and then after print 11, 12, 13, 14
  # let's play a one more command
  print("Enter a number:") 
+ n = int(input("Enter anumber:")
+ print(n)
  so what you should do is you should let your user , I mean, you enter anumber here.
  n=int(input()) after this program the cursor is waiting for you to put something
  this means please ask the person to input something convert thats to an integer
-and assign it in n
-
- print(a)                      14                  
- # In this place (a) Alphabet is assign with variables 10 after this print a value is 10. 
-   and then after print 11, 12, 13, 14
+ and assign it in n               
+ If you increment in n like 
+ print(n+1)
+ print(n+2) 
+ print(n+3)
+ and so on
