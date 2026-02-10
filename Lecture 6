@@ -1,0 +1,34 @@
+## Variables and literals
+# we can merge the print and input statement how?
+n=str(input('Type your name:')
+p=str(input('Type your location:')
+print('Hello',n,'how is the weather in',p,'?')
+age=int(input('what is your age?')
+print('Good to know you are',age,'years old')
+
+which means same program executes perfectly with same 
+messeges even though the values are changed how that happens?
+There is something called as variable, for example, this n and p and age, 
+all are variable; which means their values can be changed,
+
+name = 'ritik'
+name = 'sudarshan'
+place = 'new york'
+place = 'edinburgh'
+age = 21
+age = 40
+In this case name, place and age are variables because they can be changed 
+whereas, these names ritik, and places edinburgh, and ages 21 are refered as literal.
+literals are actually values which are stored inside a varaible.
+age = age+1
+It means the value of age 21 add 1 to it and stored in a updated value in variable age 
+but you cannot say 
+30=30+1
+beacause literals can be used right side of equal but variables can be used both side of equal
+When to use variables and when do use literals
+r = int(str('Enter a radius of the circle:'))
+area = 3.14*r*r
+print('Area of the circle with radius',r,'is',area)
+we will use variable only when there is a possibility that the value which is being stored make change 
+and when we are sure that the value is not going to change we will use literal
+example: In a previous program the name is variable and place is variable and age is variable because it changed person to person and place to place 
