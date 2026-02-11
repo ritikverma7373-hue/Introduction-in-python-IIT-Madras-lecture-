@@ -30,9 +30,35 @@ b = float('9')
 print(a,type(a))                         7.0 <class'float'>
 print(b,type(b))                        10.0 <class'float'>
 # How type conversion in boolean data type:
+ let us try to convert integer to boolean data type
 a = bool(10)                             
 b = bool(0)                             
 c = bool(-10)   
 print(a,type(a))                         True <class'bool'>
 print(b,type(b))                        False <class'bool'>
 print(c,type(c))                         True <class'bool'>
+listen carefully, That is because whenever computer converts an integer to boolean,
+all values except 0 are consider as True whereas 0 is only value which will give us
+Boolean representation is False.
+# Now, let us try the similiar thing with a floating point value.
+a = bool(10.0)                             
+b = bool(0.0)                             
+c = bool(-10.0)   
+print(a,type(a))                         True <class'bool'>
+print(b,type(b))                        False <class'bool'>
+print(c,type(c))                         True <class'bool'>
+# Now let us try with some more examples, Here 0 is niether a integer nor float number 
+ here is it string and string representation of boolean data type is always True 
+ except one condition. Let us see what the condition is. 
+a = bool('India')
+b = bool('10')
+c = bool('10.1')
+d = bool('0')
+e = bool('')
+print(a,Type(a))
+print(b,Type(b))
+print(c,Type(c))
+print(d,Type(d))
+print(e,Type(e))
+let us only one condition e is equal to boolean of empty string,
+which means empty string and a boolean conversion of empty string is false
