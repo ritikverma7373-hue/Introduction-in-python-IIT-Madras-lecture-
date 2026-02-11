@@ -1,0 +1,38 @@
+## Data Type 2
+# In a previous data type we will introduce data type like string,integer,float but
+in this lecture we will introduce one more data type called boolean.
+a = 10
+b = 1.1
+c = 'India'
+d = True
+e = False
+print(type(a))                          <class'int'>
+print(type(b))                          <class'float'>
+print(type(c))                          <class'str'>
+print(type(d))                          <class'bool'>
+print(type(e))                          <class'bool'>
+Notice carefully,the letter T in True and letter F in false
+has to be capital otherwise it not not to be considered as Boolean.
+As we are studied four data type let us tried some different, 
+Which is called Data Conversion from one data type to another
+a = int(5.7)
+b = int('10')
+print(a,type(a))                         5 <class'int'>
+print(b,type(b))                        10 <class'int'>
+
+a = str(5)
+b = str(5.5)
+print(a,type(a))                         5 <class'str'>
+print(b,type(b))                        5.5 <class'str'>
+
+a = float(7)
+b = float('9')
+print(a,type(a))                         7.0 <class'float'>
+print(b,type(b))                        10.0 <class'float'>
+# How type conversion in boolean data type:
+a = bool(10)                             
+b = bool(0)                             
+c = bool(-10)   
+print(a,type(a))                         True <class'bool'>
+print(b,type(b))                        False <class'bool'>
+print(c,type(c))                         True <class'bool'>
