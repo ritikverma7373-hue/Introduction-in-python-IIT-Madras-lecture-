@@ -9,3 +9,23 @@ print(s)                                <class'str'>
 print(type(n))
 print(type(r))
 print(type(s))
+# Floating point representation of a number is the way a computer stores a number 
+that is not an integer, A computer automatically recoginizes the type of data is being stored.
+# why would anyone want something like this? The answer is very simple, if you were create a vessel
+where you will put,let us say rice, look at the shape of jar,what kind of jar do you use for rice,
+what kind of jar do you use for, let us say to store some liquid they appear differently is not just
+for some aesthetics reason it is simply because because the hods rice is free from moisture whereas a 
+contain thats tores water is not worry about moisture so it is very similiar way to kind of data  that 
+you store, computer does some work internally and it to be stored in some memory location .Now it cannot 
+keep the same location for all data types that may want to store.
+#You need to know python has different data types.
+l=[10,20,30]                                
+print(l[0])                                         10
+print(l[1])                                         20
+print(l[2])                                         30
+print(type())                                       <class'list'>
+# The human will start with 1, 2, 3 term but computer willl start with 0, 1, 2 term
+r=1.23                                            
+print(type(r))                                     <class'float'>
+s='hello'
+print(type(s))                                     <class'str'>
