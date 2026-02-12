@@ -1,6 +1,7 @@
 ## Data Type 2
 # In a previous data type we will introduce data type like string,integer,float but
-in this lecture we will introduce one more data type called boolean.
+in this lecture we will introduce one more data type called boolean.And also learn
+about Type conversion.
 a = 10
 b = 1.1
 c = 'India'
@@ -55,10 +56,10 @@ b = bool('10')
 c = bool('10.1')
 d = bool('0')
 e = bool('')
-print(a,Type(a))
-print(b,Type(b))
-print(c,Type(c))
-print(d,Type(d))
-print(e,Type(e))
+print(a,Type(a))                         True <class'bool'>         
+print(b,Type(b))                         True <class'bool'>
+print(c,Type(c))                         True <class'bool'>
+print(d,Type(d))                         True <class'bool'>
+print(e,Type(e))                        False <class'bool'>  # NOTICE CAREFULLY
 let us only one condition e is equal to boolean of empty string,
-which means empty string and a boolean conversion of empty string is false
+which means empty string and a boolean conversion of empty string is false.
