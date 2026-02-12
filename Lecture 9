@@ -32,7 +32,16 @@ n=a/b
 print(a/b)                             2.2
 # The output is a floating point 2.2
 n=10+12*8
-print(n)                                       114
-# My guess is n will be 176 but the answer is 114 why 
-because whenever we have 
+print(n)                                       106
+# My guess is n will be 176 but the answer is 106 why 
+because whenever you have a plus and a multiplication,give priority
+to multiplication, which means come immediately to the place where 
+the into , the star and  multiply these two numbers, you get 96 and 
+then add 10 to it, you get 106, and that is precisely what is being 
+displayed here not the typically first i guess that i did, 10 plus 12 
+is 22 times 8 is 176.
+# Simply if you put brackets is there and then tell me what you want.
+Here the movement you put your brackets
+n = (10+12)*8
+print(n)                                 176
 
