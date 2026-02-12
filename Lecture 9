@@ -4,8 +4,35 @@ n=3+2
 print(n)                                 5
 n=3.6*3
 print(n)                                10.8
-a = 'sudarshan'
-b = 'india'
-n=a*b                                      error                          print(n)
-n=a
-# Its throws an error obviously because it does not know how to multiply these two strings a and b the computer does not understand how to mutiply and divide and subtract two strings.
+a = 'Ritik'
+b = 'India'
+n = a*b
+print(n)                                error                       
+
+# Its throws an error obviously because it does not know 
+how to multiply these two strings a and b the computer does
+not understand how to mutiply and divide and subtract two strings.
+
+a = 'Ritik'                                          
+b = 'India'
+n = a+b
+print(n)                                   RitikIndia
+# It simply mixes two strings, mixes as in puts it one next to other, 
+this is called concatenation in englishand more so in computer science 
+this is often used, they called it concatenate,put two words together 
+one next to the other
+a=[1,2,3]
+b=[4,5,6]
+n=a+b
+print(n)                                [1,2,3,4,5,6]
+# In a+b a and b list together
+a=11
+b=5
+n=a/b
+print(a/b)                             2.2
+# The output is a floating point 2.2
+n=10+12*8
+print(n)                                       114
+# My guess is n will be 176 but the answer is 114 why 
+because whenever we have 
+
