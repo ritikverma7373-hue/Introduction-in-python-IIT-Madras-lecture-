@@ -1,0 +1,11 @@
+## Operational operator:
+There are many type of operator +,+,-,/,// etc.
+n=3+2
+print(n)                                 5
+n=3.6*3
+print(n)                                10.8
+a = 'sudarshan'
+b = 'india'
+n=a*b                                      error                          print(n)
+n=a
+# Its throws an error obviously because it does not know how to multiply these two strings a and b the computer does not understand how to mutiply and divide and subtract two strings.
