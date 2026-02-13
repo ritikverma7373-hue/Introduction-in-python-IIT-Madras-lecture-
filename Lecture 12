@@ -1,0 +1,21 @@
+## More on strings
+Now we will se what happens if we use multiplication operator with string.
+s='good'
+print(s*5)                                       goodgoodgoodgoodgood
+print(s[0]*5)                                    ggggg
+It print 5 times one after the other, which means it is like an concatenation
+this tupe of data features on a string is replication, where the string 
+its replicates one after the other
+## String comparison
+x='Hello world' 
+print(x == 'Hello world')                        True              
+print(x == 'hello world')                        False
+It is string comparison, why is it True and why is it False because the 
+string is match or not match in a print statement so it is false or true 
+by compare them
+print('apple'>'one')                             False
+print('four'<'ten')                              True
+A computer start comparison process process character as in the zeroth 
+letter of first string which is a in case will be compared against zeroth 
+letter of second string, this means computer will compare wheather a is
+not greater than o, because of that it results into False. 
