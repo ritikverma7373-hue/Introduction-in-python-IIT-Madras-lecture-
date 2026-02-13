@@ -27,4 +27,10 @@ print(a+b)                             47
 # string and place them one next to the other, the concatenation as and I 
 # and I have telling you people computer does exactly what you instuct 
 # the computer to do.
+s='0123456789'
+a=int(s[4])
+b=int(s[7])
+print(a+b)                                       11                   
+# if you put int here then what is the output? I will remove int here 
+ then what is the output? the output is 11.
 
