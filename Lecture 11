@@ -1,0 +1,30 @@
+## Introduction to strings 
+s='coffee'
+t='bread'
+print(s)                                 coffee
+print(t)                                 bread
+print(s+t)                               coffeebread
+# let us discussed when we print s plus t it will be concatenate, that is 
+probly new word for all
+# What will happen if i were simply say s of 0,even this we discussed, it will show the first letter of s, s of first letter of s, if I were to say s of 2 and so on.
+print(s[0])                             c
+print(s[1])                             0
+# What will happen if you s of 1 here and then 3 here it does something else, it is starting from the first number and  does not goes up to 3, it goes 1 less, so s of 1 and s of 2 is (of).It is called String slicing.
+print(s[1:3])                           of
+print(s{1:5])                           offe 
+print(s[3:5])                           fe
+print(s+t)                              coffebread #concatenate two
+print(s-t)                              error #nothing to do
+s='0123456789'
+a=s[4]
+b=s[7]
+print(a)                               0
+print(b) 
+print(a+b)                             47
+# who is new in programming, I would expect this is to be 4 plus 7, 11. 
+# that is because as you can see a here actually as a string,a is one 
+# letter string, a character, b is another string  it should take this 
+# string and place them one next to the other, the concatenation as and I 
+# and I have telling you people computer does exactly what you instuct 
+# the computer to do.
+
