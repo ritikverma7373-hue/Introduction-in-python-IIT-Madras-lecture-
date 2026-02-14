@@ -19,3 +19,41 @@ A computer start comparison process process character as in the zeroth
 letter of first string which is a in case will be compared against zeroth 
 letter of second string, this means computer will compare wheather a is
 not greater than o, because of that it results into False. 
+similarly in second case compare with the zeroth letter of both strings 
+'four' and 'ten', the letter f is less than t because the letter f comes
+before t then the output is True.
+print('ab'<'az')                            True
+print('abcdef'<'abcde')                     False
+In first print statement, first character a is equal in both strings computer 
+moves to the next character b comes before z in alphabetically order is says TRUE.
+# String Indexing
+s='python'
+print(s[-1])                                n
+print(s[-2])                                o
+print(s[-3])                                h
+print(s[-4])                                t
+print(s[-5])                                y
+print(s[-6])                                p                         
+we know first letter is in zeroth index, second is in first index and so on.
+what will happen indexing in negative indexing?
+In negative indexing the output is all the character in a reverse order,
+which means whwnever do print(s[-1]) it access the last letter of the string,
+minus 2 is second last letter,minus 3 is third letter from the end and so on
+is called negative indexing.
+s='gdbckuksgcscyjgbchiydwgiuk'
+print(s[100])                                      error
+It shows an error which says string index out of range, which means we are trying
+to access 100th character in the particular string but as per error it says index
+out of range, which 100th character does not access in particular string.
+# Find the number of character ina a particular sring
+s='gdukgwvyhfvouulahduoqfdi'
+print(len(s))                                       24
+print(s[24])                                        error 
+why Error, Error because indexing start with 0 so we will go to only at most 23 index.
+
+
+
+
+
+
+
