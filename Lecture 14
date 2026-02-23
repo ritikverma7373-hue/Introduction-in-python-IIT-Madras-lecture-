@@ -1,0 +1,27 @@
+## Variables: A programmer's respective
+ram_bank_balance=100000
+# ram's bank balance, note that this is positive(+) .this is the first line which is commented.
+ram_bank_loan=500000
+# ram_bank_loan, this is to be returned by him and hence will count as negative(-).
+lakshaman_bank_balance=2000000
+lakshman_loan=1000000
+net_income=ram_bank_balance+lakshman_bank_balance 
+# net_income is the total bank balance of two brothers(ram and lakshman)
+net_liablity=ram_loan+lakshman_loan
+# net_liablity is the total loan of the brothers
+final_value=net_income+net_liablity
+# final_value is the final money of the two brothers, could be positive(+) or negative(-) 
+print("So the family has",final_value)
+
+# So is it easy on your mind when I say, when I give the variable like this 
+ than say A, B, C, D. Tip number 1; try to make your variables self-explanatory.
+ Second tip is add comments.How do you add comments? You add comments by
+putting a (hash) followed by whatever you type here is to be ignored by the computer.
+Especially if code will goes to 1000S of lines  we are bound to forget despite our being
+Commment is only for you, for your purpose, just to ensure that if you seeit after few days,
+few weeks,few months or sometimes even years,a software engineer writes 
+a piece of code running into several 1000s of lines and someone else take a look at it.
+It must make a sense only if you have take care of the variables made it very sort of human
+friendly,reader friendly, programmer friendly.secondly you have a lots of commments.
+
+
